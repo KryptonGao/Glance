@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Glance：从截图到下一步行动</title>
+  <desc id="desc">工作流程示意：选择或分享截图，使用配置好的视觉 AI 分析整张图片或圈选区域，再查看摘要和建议；添加日历事件或提醒需要用户确认。</desc>
+
+  <rect width="1200" height="420" rx="28" fill="#F6F1E8"/>
+  <text x="56" y="76" fill="#17362F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="46" font-weight="650">从一张截图，到可确认的下一步</text>
+
+  <g id="import-step">
+    <rect x="56" y="118" width="324" height="238" rx="22" fill="#FFFCF5" stroke="#D8D3C8" stroke-width="2"/>
+    <rect x="82" y="183" width="86" height="130" rx="13" fill="#17362F"/>
+    <rect x="89" y="191" width="72" height="114" rx="8" fill="#F6F1E8"/>
+    <path d="M89 199a8 8 0 0 1 8-8h56a8 8 0 0 1 8 8v24H89z" fill="#17362F"/>
+    <circle cx="146" cy="207" r="4" fill="#F6F1E8"/>
+    <circle cx="108" cy="249" r="9" fill="#FF5A36"/>
+    <path d="M91 286l20-21 13 13 12-12 25 25H91z" fill="#1F6A58"/>
+    <path d="M108 249c11 5 19 16 29 16" fill="none" stroke="#FF5A36" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+
+    <text x="190" y="237" fill="#17362F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="38" font-weight="650">导入截图</text>
+    <text x="190" y="283" fill="#575D55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="34">照片 / 分享</text>
+  </g>
+
+  <g id="analysis-step">
+    <rect x="438" y="118" width="324" height="238" rx="22" fill="#FFFCF5" stroke="#D8D3C8" stroke-width="2"/>
+    <rect x="464" y="189" width="78" height="112" rx="10" fill="#17362F"/>
+    <rect x="471" y="196" width="64" height="98" rx="5" fill="#F6F1E8"/>
+    <path d="M474 218h45M474 227h35M474 236h40M474 270h22" stroke="#A8AEA2" stroke-width="4" stroke-linecap="round"/>
+    <path d="M477 250c7-11 18-12 27-6 8 5 10 15 4 22-7 8-20 7-28 2-7-5-8-12-3-18z" fill="none" stroke="#FF5A36" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 5"/>
+    <circle cx="510" cy="270" r="4" fill="#FF5A36"/>
+
+    <text x="564" y="237" fill="#17362F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="36" font-weight="650">视觉分析</text>
+    <text x="564" y="283" fill="#575D55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="32">整图 / 局部</text>
+  </g>
+
+  <g id="actions-step">
+    <rect x="820" y="118" width="324" height="238" rx="22" fill="#FFFCF5" stroke="#D8D3C8" stroke-width="2"/>
+    <circle cx="863" cy="207" r="6" fill="#1F6A58"/>
+    <text x="884" y="215" fill="#17362F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="29" font-weight="600">摘要与搜索</text>
+    <circle cx="863" cy="251" r="6" fill="#1F6A58"/>
+    <text x="884" y="259" fill="#17362F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="29" font-weight="600">日历与提醒</text>
+    <rect x="846" y="281" width="195" height="42" rx="21" fill="#FBE0D7"/>
+    <path d="M863 302l6 6 12-14" fill="none" stroke="#B33D25" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="890" y="309" fill="#8E321F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="25" font-weight="650">确认后添加</text>
+  </g>
+
+  <g id="connectors" fill="none" stroke="#1F6A58" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M392 237h28m-9-9 9 9-9 9"/>
+    <path d="M774 237h28m-9-9 9 9-9 9"/>
+  </g>
+</svg>
